@@ -19,6 +19,7 @@ main{
     border-radius: 1em;
 }
 h2{
+    font-size: 1.3em;
     margin: .5em 1em;
     text-align: center;
 }
@@ -36,7 +37,7 @@ select{
     padding: 0 0 1px;
     border-radius: 11px;
     color: dodgerblue;
-    border: 1px soid dodgerblue;
+    border: 1px solid dodgerblue;
 }
 section{
     display: flex;
@@ -59,7 +60,7 @@ select:focus ,textarea:focus{
 }
 p{
     margin: 0 0 .5em;
-
+    font-size: .75em;
 }
 button{
     width: 30%;
@@ -69,6 +70,7 @@ button{
     background-color: dodgerblue;
     border: none;
     border-radius: 2em;
+    cursor: pointer;
 }
 .up-tweet{
     display: flex;
